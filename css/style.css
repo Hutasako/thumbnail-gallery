@@ -1,0 +1,20 @@
+.gallery {
+
+    display: grid;
+   
+    grid-template-columns: repeat(3, 1fr);
+   
+    max-width: 40em;
+   
+    margin: 0 auto
+   
+   }
+   
+   .bigimg {
+   
+    grid-column: span 3;
+   
+   }
+   .thumb:hover{
+       cursor: pointer;
+   }
